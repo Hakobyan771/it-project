@@ -241,5 +241,28 @@ body{
 }
 
 
+@media(max-width: 768px) {
+    .menu__list {
+        display: none;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .menu__list--open {
+        display: block;
+        background: #fff;
+        width: 100%;
+        padding: 25px;
+        text-align: center;
+
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
+}
+
+
 
 
