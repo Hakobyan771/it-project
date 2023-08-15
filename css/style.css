@@ -16,6 +16,13 @@ a{
 ul{
     list-style: none;
 }
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
 
 .wrapper {
     width: 100%;
@@ -239,6 +246,85 @@ body{
     color: #FFF;
     text-align: center;
 }
+
+
+
+
+.itbusines{
+    padding-top: 190px;
+}
+
+.itbusines__column{
+    display: flex;
+    gap: 36px;
+}
+
+.itbusines__title{
+    color: #333;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    
+}
+
+
+
+.itbusines__slogan{
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400; 
+    line-height: 181.5%;
+     max-width: 711px;
+    margin: 0 auto 80px;
+}
+
+
+.itbusines__img {
+    width: 100%;
+    max-width: 361px;
+    position: relative;
+}
+
+.itbusines__btn {
+    max-width: 297px;
+    background: #FFF;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    top: 280px;
+    padding: 25px 45px;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+
+
+.itbusines__text{
+    font-family: 'Inter', sans-serif;
+    color: #6C6C6C;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 181.5%;
+    max-width: 350px;
+    padding-top: 57px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media(max-width: 768px) {
