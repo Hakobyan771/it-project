@@ -286,6 +286,7 @@ body{
     width: 100%;
     max-width: 361px;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .itbusines__btn {
@@ -297,7 +298,7 @@ body{
     position: absolute;
     left: 50%;
     top: 280px;
-    padding: 25px 45px;
+    padding: 25px 31px;
     transform: translateX(-50%);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     white-space: nowrap;
@@ -311,9 +312,22 @@ body{
     font-weight: 400;
     line-height: 181.5%;
     max-width: 350px;
-    padding-top: 57px;
+    margin-top: 57px;
 }
 
+.itbusines__img img{
+    width: 100%;
+}
+
+.photo{
+    padding-top: 153px;
+}
+
+.photo__img{
+    width: 100%;
+    min-height: 490px;
+    background: rgba(0, 0, 0, 0.56);
+}
 
 
 
