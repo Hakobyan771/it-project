@@ -323,12 +323,66 @@ body{
     padding-top: 153px;
 }
 
+.product__title{
+    color: #12141D;
+}
+
 .photo__img{
     width: 100%;
     min-height: 490px;
     background: rgba(0, 0, 0, 0.56);
 }
 
+.product{
+    padding-top: 140px;
+}
+
+.product__title{
+    font-family: 'DM Sans', sans-serif;
+    color: #12141D;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: -1.56px;
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+.product__column{
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+}
+
+.product__clumn{
+    border-radius: 32px;
+    }
+    .product__clumn-img{
+        margin-bottom: 32px;
+    }
+
+.column__slogan{
+    font-family: 'DM Sans', sans-serif;
+    color: #12141D;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+    margin-bottom: 8px;
+}
+
+.column__text{
+    color: #797979;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 261px;
+    margin-bottom: 32px;
+}
+
+.product__btn{
+    color: #2162F0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+}
 
 
 
