@@ -257,6 +257,7 @@ body{
 .itbusines__column{
     display: flex;
     gap: 36px;
+    justify-content: center;
 }
 
 .itbusines__title{
@@ -384,8 +385,139 @@ body{
     font-size: 16px;
 }
 
+.custumers{
+    padding-top: 182px;
+}
+
+.custumers__item{
+    display: flex;
+    align-items: center;
+}
+
+.custumers__content{
+    background: #1E47FF;
+    width: 100%;
+    display: flex;
+    height: 628px;
+}
 
 
+.costumers__title{
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 53px;
+}
+
+.costumers__text{
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    line-height: 36px;
+    margin: 0 190px 90px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    padding-left: 30px;
+}
+
+
+
+.costumers__name{
+    color: #FFF;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    margin: 0 190px 4px; 
+}
+
+.costumers__Associate{
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    color: #FFF;
+    font-weight: 500;
+    margin: 0 190px;
+}
+
+
+.custumers__img {
+    /* max-width: 100%; */
+    margin-right: -100px;
+    position: relative;
+}
+
+.custumers__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.latest{
+    padding-top: 124px;
+}
+
+.latest__title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 72px;
+}
+
+.latest__column{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.column__title{
+    color: #16133E;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: 380px;
+    margin-bottom: 26px;
+}
+
+.latest__img{
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+
+.latest__text span{
+    font-family: 'Barlow', sans-serif;
+    color: #1E47FF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.latest__text:last-child{
+    font-family: 'Barlow', sans-serif;
+    color: #717D8F;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.latest__text {
+    position: relative;
+    padding-left: 30px; 
+}
+
+.latest__text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    border-radius: 21px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icone.png);
+    background-size: cover;
+}
 
 
 
