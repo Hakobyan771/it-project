@@ -581,9 +581,49 @@ body{
     cursor: pointer;
 }
 
+.footer{
+    padding-top: 79px;
+}
 
 
 
+.footer-columns{
+    display: flex;
+    gap: 32px;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.footer__title{
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 32px;
+    color: #16133E;
+    font-weight: 700;
+}
+
+.footer__list{
+    font-family: 'Barlow', sans-serif;
+    color: #8B8F95;
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+.footer__down-item{
+    display: flex;
+    gap: 32px;
+    padding-top: 87px;
+}
+
+.footer__down{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
 
 
 
