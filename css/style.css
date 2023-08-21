@@ -622,6 +622,109 @@ body{
 
 
 
+@media(max-width: 992px) {
+
+    .column {
+        padding-top: 80px;
+    }
+    
+    .column__content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .column__item {
+        padding: 25px;
+    }
+    
+    .column__title {
+        font-size: 24px;
+    }
+    
+    .column__text {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    .solutions {
+        padding-top: 100px;
+    }
+    
+    .solutions__content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .solutions__title {
+        font-size: 36px;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .solutions__text {
+        font-size: 18px;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .solutions__btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    
+    .solutions__img {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    
+    .solutions__desc {
+        display: none;
+      }
+      .itbusines {
+        padding-top: 100px;
+    }
+    
+    .itbusines__column {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .itbusines__title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    .itbusines__slogan {
+        font-size: 18px;
+        line-height: 150%;
+        max-width: 100%;
+        margin: 0 auto 40px;
+    }
+    
+    .itbusines__img {
+        max-width: 100%;
+        position: relative;
+        width: auto;
+        margin: 30px 0;
+    }
+    
+    .itbusines__btn {
+        font-size: 24px;
+        padding: 20px 25px;
+        top: 220px;
+    }
+    
+    .itbusines__text {
+        font-size: 18px;
+        max-width: 100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+
+
+
 
 
 
@@ -666,6 +769,41 @@ body{
     .itservices__tell {
         font-size: 12px;
     }
+    
+    .solutions {
+        padding-top: 80px;
+    }
+    
+    .solutions__content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .solutions__title {
+        font-size: 36px;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .solutions__text {
+        font-size: 16px;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .solutions__btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    
+    .solutions__img {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    
+
 }
 
 
